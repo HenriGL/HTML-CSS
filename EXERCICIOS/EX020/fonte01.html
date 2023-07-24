@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+
+    <style>
+
+        @font-face {
+            font-family: 'Catchme';
+            src: "url"(Catchme.otf) format('OpenType');
+        }
+
+            /* Tipos de format()
+            -OpenType (otf)
+            -TrueType (ttf)
+            -Embedded-opentype
+            -TrueType-aat (apple advanced typography)
+            -svg
+            */
+        
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Catchme','Times New Roman', Times, serif;
+            font-size: 3em;
+            text-indent: 20px
+        }
+
+            .separar-caracteres {
+            letter-spacing: 20px
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut autem eius suscipit non voluptas repudiandae ea debitis,
+    ipsum distinctio excepturi, animi corrupti officia delectus et doloremque aliquid, natus quasi voluptatum.</p>
+</body>
+</html>
